@@ -9,7 +9,7 @@ class IcloudKeychain < Formula
   depends_on :macos
 
   def install
-    prefix.install "icloud-keychain.app"
+    (prefix / "icloud-keychain.app").install Dir["*"]
     bin.install_symlink prefix / "icloud-keychain.app" / "Contents" / "MacOS" / "icloud-keychain"
   end
 
