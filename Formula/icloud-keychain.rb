@@ -1,9 +1,9 @@
 class IcloudKeychain < Formula
   desc "CLI tool to manage iCloud Keychain items"
   homepage "https://github.com/piotrrojek/icloud-keychain"
-  url "https://github.com/piotrrojek/icloud-keychain/releases/download/v1.0.0/icloud-keychain-1.0.0-macos-universal.tar.gz"
-  sha256 "a7ad1bbff35063c5ff5fb6862c3425ee2064111e7972376cd99e498091fe1d8b"
-  version "1.0.0"
+  url "https://github.com/piotrrojek/icloud-keychain/releases/download/v1.0.1/icloud-keychain-1.0.1-macos-universal.tar.gz"
+  sha256 "94b4b5bef1d5b633f2a3cccda7811c03de166819c0f3eae428c33d28d83dd509"
+  version "1.0.1"
   license "MIT"
 
   depends_on :macos
